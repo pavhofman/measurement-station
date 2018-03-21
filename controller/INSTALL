@@ -1,0 +1,13 @@
+aptitude install python3-pip
+aptitude install python3-dev
+
+
+pip3 install setuptools
+pip3 install wheel
+pip3 install netifaces
+pip3 install pyttsx3
+
+
+* Add to After start: python3 headless_controller.py
+* configure PA (pavucontrol) to disable all other soundcards but SB (internal analog)
+
