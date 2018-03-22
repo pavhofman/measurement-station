@@ -68,10 +68,10 @@ Holes for long cinches are drilled into the front panel, covered with a two-colo
 Single-ended and balanced inputs are mixed before the ADC. Therefore, for best performance of the higher-voltage balanced inputs short-circuit the more sensitive lower-volate input cinches. In balanced-balanced closed-loop measurement it improves noise floor from -102dB to -105dB.
 
 Closed loop no signal
-<img src="https://github.com/pavhofman/measurement-station/raw/master/images/loop.jpg">
+<img src="https://github.com/pavhofman/measurement-station/raw/master/images/loop.png">
 
 Closed loop 1kHz signal
-<img src="https://github.com/pavhofman/measurement-station/raw/master/images/1khz-loop.jpg">
+<img src="https://github.com/pavhofman/measurement-station/raw/master/images/1khz-loop.png">
 
 Amps are measured with an artificial load with replaceable balanced voltage dividers made from old CPU heatsinks, optionally cooled with the original heatsink fans. I will post more pictures and resistor values.
 <img src="https://github.com/pavhofman/measurement-station/raw/master/images/14.jpg">
