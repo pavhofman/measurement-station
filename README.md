@@ -65,7 +65,7 @@ Holes for long cinches are drilled into the front panel, covered with a two-colo
 <img src="https://github.com/pavhofman/measurement-station/raw/master/images/11.jpg">
 
 ## Performance
-Single-ended and balanced inputs are mixed before the ADC. Therefore, for best performance of the higher-voltage balanced inputs short-circuit the more sensitive lower-volate input cinches. In balanced-balanced closed-loop measurement it improves noise floor from -102dB to -105dB.
+Single-ended and balanced inputs are mixed before the ADC. Therefore, for best performance of the higher-voltage balanced inputs short-circuit the more sensitive single-ended inputs with short-circuited cinches. In balanced-balanced closed-loop measurement this improves noise RMS from -102dB to -105dB.
 
 Closed loop no signal
 <img src="https://github.com/pavhofman/measurement-station/raw/master/images/loop.png">
