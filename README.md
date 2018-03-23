@@ -75,3 +75,13 @@ Closed loop 1kHz signal
 
 Amps are measured with an artificial load with replaceable balanced voltage dividers made from old CPU heatsinks, optionally cooled with the original heatsink fans. I will post more pictures and resistor values.
 <img src="https://github.com/pavhofman/measurement-station/raw/master/images/14.jpg">
+
+## Notes
+### Testing Juli@ Voltage Supplies
+The PC generates +12V/-12V voltages for the PCI slot. I cut these supply pins on the connector between digital and ADC/DAC parts of Juli and fed the ADC/DAC part with 7812/7912 linear PSUs. No change in noise background was detected in Arta. It means the internal regulators on Juli are capable of filtering the SMPS-generated supply voltage sufficiently and the PCI-supplied voltages can be used safely.
+
+### Shielding Juli@
+I measured the closed-loop noise floor before covering the bottom holders of Juli@ with copper tape and connecting to the case. The difference between the unshielded  and shielded soundcard was less than 0.2dBFS. Therefore I assume the bottom shields are not necessary and do not have to be printed/installed at all.
+
+### No Impact of SSD on Measurement Performance
+Running full RAID1 sync on the secondary SSD located right beneath the soundcard had no measurable impact on the closed-loop noise floor of 105.1dBFS.
