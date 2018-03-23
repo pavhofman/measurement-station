@@ -85,3 +85,6 @@ I measured the closed-loop noise floor before covering the bottom holders of Jul
 
 ### No Impact of SSD on Measurement Performance
 Running full RAID1 sync on the secondary SSD located right beneath the soundcard had no measurable impact on the closed-loop noise floor of 105.1dBFS.
+
+### VNC Resolution
+With no monitor connected the X server starts at 1024x768. This resolution seems just enough for taking measurements/pictures while keeping the CPU load for VNC transmission acceptable.
