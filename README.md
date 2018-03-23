@@ -18,7 +18,7 @@
 ### ESI Juli@
 - Both balanced and single-ended inputs and outputs, functioning simultaneously. It allows feeding an amp with single-ended signal and measure balanced speaker output at the same time.
 - Digital outputs/inputs for extra measurements/tests
-- Good support in linux
+- Full support in linux
 - Priced moderately on ebay due to lack of PCI slots in modern PCs
 
 
@@ -36,7 +36,7 @@
 
 
 ## Construction
-All parts are 3D printed, Freecad sources and STL models are included in design folder.
+All parts are 3D printed, FreeCAD sources and STL models are included in design folder.
 
 Since the thin client supports only half-size PCI cards, room/holes must be made for full-sized one. Upper sound jacks and PS/2 slot must be removed/sawn off.
 
@@ -73,7 +73,7 @@ Closed loop no signal
 Closed loop 1kHz signal
 <img src="https://github.com/pavhofman/measurement-station/raw/master/images/1khz_loop.png">
 
-Amps are measured with an artificial load with replaceable balanced voltage dividers made from old CPU heatsinks, optionally cooled with the original heatsink fans. I will post more pictures and resistor values.
+Amps are measured with a dummy load with replaceable balanced voltage dividers made from old CPU heatsinks, optionally cooled with the original heatsink fans. I will post more pictures and resistor values.
 <img src="https://github.com/pavhofman/measurement-station/raw/master/images/14.jpg">
 
 ## Notes
