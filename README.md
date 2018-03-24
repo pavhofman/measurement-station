@@ -73,6 +73,9 @@ Closed loop no signal
 Closed loop 1kHz signal
 <img src="https://github.com/pavhofman/measurement-station/raw/master/images/1khz_loop.png">
 
+Closed loop two sine 13+14kHz signal
+<img src="https://github.com/pavhofman/measurement-station/raw/master/images/15.png">
+
 Amps are measured with a dummy load with replaceable balanced voltage dividers made from old CPU heatsinks, optionally cooled with the original heatsink fans. I will post more pictures and resistor values.
 <img src="https://github.com/pavhofman/measurement-station/raw/master/images/14.jpg">
 
